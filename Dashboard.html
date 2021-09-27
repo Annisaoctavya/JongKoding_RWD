@@ -1,0 +1,170 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Dashboard| Rumah Baca JK
+    </title>
+    <link rel="stylesheet" href="./Dashboard_style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    
+        $(document).ready(function () {
+
+          $(".menu-toggle").click(function () {
+
+            $(".menu").slideToggle("fast");
+
+          });
+
+          $(window).on('resize', function(){
+                var win = $(this); //this = window
+
+                if (win.width() >= 640) { 
+                    $(".menu").css("display", "inline");
+                }
+            });
+
+        });
+
+    </script>
+
+  </head>
+
+  <body>
+
+    <div id="header" class="wrapper fixed">
+
+        <div class="container">
+
+            <div class="logo">
+                <img src="logo.825423d.png" alt="" srcset="">
+                <div class="menu-toggle"> Menu </div>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Kategori</a></li>
+                    <li><a href="#">My Profile</a></li>
+                    <li><input type="search" placeholder="Ketik dan cari" style="width: 200px;height: 35px; border-radius: 10px;"></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="content" class="wrapper">
+	
+		<div class="container">
+		
+			<div class="list-article">
+
+				<div class="article">
+                    <div class="cover">
+                        <img src="read-book.jpg" alt="">
+                    </div>
+                    
+                    <div class="overlay">
+                        <div class="article-title">
+                            <a href="https://www.bola.com/ragam/read/4484476/7-manfaat-membaca-buku-yang-masih-belum-banyak-diketahui">Artikel Terbaru: 7 Manfaat Membaca Buku yang Masih Belum Banyak Diketahui</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article">
+                    <div class="cover">
+                        <img src="Serunya-Membaca-bersama-Teman-Sebaya-Tanoto-Foundation-Pelita-Pendidikan.jpeg" alt="">
+                    </div>
+                    
+                    <div class="overlay">
+                        <div class="article-title">
+                            <a href="https://www.popmama.com/big-kid/10-12-years-old/monica-dameria-natasya/rekomendasi-buku-ensiklopedia-yang-cocok-untuk-anak">Artikel Populer : 7 Rekomendasi Buku Ensiklopedia yang Cocok untuk Anak.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article">
+                    <div class="cover">
+                        <img src="novel.jpg" alt="">
+                    </div>
+                    
+                    <div class="overlay">
+                        <div class="article-title">
+                            <a href="https://keepo.me/lifestyle/novel-sejarah-indonesia-terbaik/">New : Bikin Hanyut! 15 Novel Sejarah Indonesia Terbaik yang Wajib</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="article">
+                    <div class="cover">
+                        <img src="pacar.jpg" alt="">
+                    </div>
+                    
+                    <div class="overlay">
+                        <div class="article-title">
+                            <a href="https://rencanamu.id/post/sudut-pandang/serunya-pacaran-sama-cewek-hobi-baca">Artikel Populer : Serunya Pacaran Sama Cewek Hobi Baca.</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <div class="cover">
+                        <img src="Kenali-Manfaat-Membaca-Buku-untuk-Kesehatan-Otak.jpg.webp" alt="">
+                    </div>
+                    
+                    <div class="overlay">
+                        <div class="article-title">
+                            <a href="https://www.halodoc.com/artikel/kenali-manfaat-membaca-buku-untuk-kesehatan-otak">Kenali Manfaat Membaca Buku untuk Kesehatan Otak.</a>
+                        </div>
+                    </div>
+                </div>
+			</div>
+            <div class="sidebar">
+                <div class="recom-books">
+                    <h2>Rekomendasi Buku Terbaru dan Terpopuler</h2>
+                    <div class="books">
+                        <div class="books-link">
+                            <a href="#">Selamat Tinggal by Tere Liye</a>
+                        </div>
+                    </div>
+                    <div class="books">
+                        <div class="books-link">
+                            <a href="#">RapiJali by Dee Lestari</a>
+                        </div>
+                    </div>
+                    <div class="books">
+                        <div class="books-link">
+                            <a href="#">Laut Bercerita by Leila S. Chudori</a>
+                        </div>
+                    </div>
+                    <div class="books">
+                        <div class="books-link">
+                            <a href="#">Pulang-Pergi by Tere Liye</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="clear"></div>
+		</div>
+	</div>
+    <div id="footer" style="background-color: #DBE2EF ;" >
+        <div class="container-fluid">
+            <div class="footer-up" style="display: flex; justify-content: center;">
+                <i class="fa fa-copyright" style="font-size: 15pt; margin-right: 10px;"></i>
+                Rumah Baca JongKreatif
+            </div>
+            <div class="footer-bot" style="margin-bottom: -30px; margin-top: 10px;">
+                <div class="list" style="display:flex; justify-content: center;">
+                    <a href="#" style="text-decoration: none; color: black;">FAQ</a>| <a href="#" style="text-decoration: none; color: black;">Bantuan</a>
+                </div>
+                <div class="email"  style="display:flex; justify-content: center;">
+                    RumahbacaJKD@gmail.com
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
